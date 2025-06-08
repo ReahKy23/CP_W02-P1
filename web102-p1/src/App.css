@@ -37,7 +37,8 @@ body {
   border-bottom: 0;
   min-height: 15em;
   min-width: 10em;
-  flex: 1 0 calc(33.333% - 20px);
+  flex: 1 0 calc(33.333% - 20px); 
+
 }
 
 .post-type {
@@ -47,6 +48,23 @@ body {
   border: solid 0.1em;
   border-radius: 5px;
 }
+
+
+.post-img {
+  max-width: 100%;
+  /* Fill the width of the container */
+  height: 50%;
+  /* Maintain aspect ratio */
+  object-fit: contain;
+  /* Crop to fit if needed */
+ 
+  max-height: 200px;
+  /* Optional: limit height */
+  display: block;
+  /* Remove any extra bottom space */
+
+}
+
 
 .read-more {
   align-self: flex-start;
