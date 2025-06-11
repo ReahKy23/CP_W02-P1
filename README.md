@@ -1,5 +1,5 @@
 # CP_W02-P1
-# Web Development Project 1 - *Name of App Here*
+# Web Development Project 1 - *Community Round-up*
 
 Submitted by: **Kylah Kerr**
 
