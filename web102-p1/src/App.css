@@ -77,3 +77,9 @@ body {
   background-color: rgba(165, 42, 42, 0.331);
  
 }
+
+@media (max-width: 750px) {
+  .post-container {
+    flex: 1 0 calc(50% - 20px);
+  }
+}
