@@ -13,7 +13,7 @@ The following **required** functionality is completed:
 
 - [x] **The app has a cohesive, unique theme for events or resources relevant to a specific community**
   - [x] Header/title describing the theme is displayed
-- [ ] **At least 10 unique events or resources are displayed in a responsive card format**
+- [x] **At least 10 unique events or resources are displayed in a responsive card format**
   - [x] There are at least 10 cards displayed 
   - [x] The cards should be displayed in an organized format (ex. a grid, or in one line)
   - [x] Each card should include some information about the event or resource
@@ -34,18 +34,14 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented required features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='web102-p1/src/assets/imgs/web102-p1.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
-<!-- Recommended tools:
-[Kap](https://getkap.co/) for macOS
-[ScreenToGif](https://www.screentogif.com/) for Windows
-[peek](https://github.com/phw/peek) for Linux. -->
+GIF created with Kap
 
 ## Notes
 
-I had some trouble making dynamic props.
+I had some trouble making dynamic props. I am still new to teh concept. 
 
 ## License
 
