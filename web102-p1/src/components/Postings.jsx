@@ -88,7 +88,94 @@ const Postings = () => {
                 <a href="https://open.spotify.com/track/0XfwXFXOI7oys9rsZ2sjrt?si=f57d2bd2f3244144" target="_blank" className="read-more">
                     Learn More
                 </a>
+
             </div>
+
+            
+            <div className="post">
+                <Type type="Movie" />
+                <Images
+                    src="../src/assets/imgs/turtles.jpg"
+                    alt="Teenage Mutant Ninja Turtles movie poster"
+                    className="post-img"
+                />
+                <br></br>
+                <div>Teenage Mutant Ninja Turtles</div>
+                <a href="https://www.imdb.com/title/tt8589698/?ref_=nv_sr_srsg_0_tt_8_nm_0_in_0_q_teenage%2520mutant%2520nin" target="_blank" className="read-more">
+                    Learn More
+                </a>
+            </div>
+
+            <div className="post">
+                <Type type="Song" />
+                <Images
+                    src="../src/assets/imgs/gaga.jpg"
+                    alt="Born This Way cover"
+                    className="post-img"
+                />
+                <br></br>
+                <div>"Born This Way" - Lady Gaga</div>
+                <a href="https://open.spotify.com/track/6r2BECwMgEoRb5yLfp0Hca?si=f0fb9189fc80401b" target="_blank" className="read-more">
+                    Learn More
+                </a>
+            </div>
+
+            <div className="post">
+                <Type type="Book" />
+                <Images
+                    src="../src/assets/imgs/ironwidow.jpg"
+                    alt="Iron Widow book cover"
+                    className="post-img"
+                />
+                <br></br>
+                <div>"Iron Widow" - Xiran Jay Zhao.</div>
+                <a href="https://en.wikipedia.org/wiki/Iron_Widow" target="_blank" className="read-more">
+                    Learn More
+                </a>
+            </div>
+
+            <div className="post">
+                <Type type="Show" />
+                <Images
+                    src="../src/assets/imgs/abbott.jpg"
+                    alt="Abbott Elementary poster"
+                    className="post-img"
+                />
+                <br></br>
+                <div>Abbott Elementary</div>
+                <a href="https://www.imdb.com/title/tt14218830/" target="_blank" className="read-more">
+                    Learn More
+                </a>
+            </div>
+
+            <div className="post">
+                <Type type="Show" />
+                <Images
+                    src="../src/assets/imgs/kitchen.jpg"
+                    alt="Crime Scene Kitchen poster"
+                    className="post-img"
+                />
+                <br></br>
+                <div>Crime Scene Kitchen</div>
+                <a href="https://www.imdb.com/title/tt14409846/" target="_blank" className="read-more">
+                    Learn More
+                </a>
+            </div>
+
+            <div className="post">
+                <Type type="Book" />
+                <Images
+                    src="../src/assets/imgs/zword.jpg"
+                    alt="The Z Word book cover"
+                    className="post-img"
+                />
+                <br></br>
+                <div>"The Z Word" - Lindsay King-Miller</div>
+                <a href="https://www.goodreads.com/book/show/195830830-the-z-word#CommunityReviews4" target="_blank" className="read-more">
+                    Learn More
+                </a>
+            </div>
+
         </div>
     )
 }
