@@ -1,7 +1,8 @@
 #root {
-  max-width: 1280px;
+  height: 100vh;
+  width: 60vw;
   margin: 0 auto;
-  padding: 2rem;
+  padding: 5rem;
   text-align: center;
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
   color: black;
@@ -10,12 +11,16 @@
 
 
 body {
-  margin: 0;
+  margin-top: 0;
   display: flex;
   place-items: center;
   width: 100vw;
   height: 100vh;
 
+}
+
+#title{
+  font-size: 2em;
 }
 
 .post-container {
@@ -52,16 +57,10 @@ body {
 
 .post-img {
   max-width: 100%;
-  /* Fill the width of the container */
-  height: 50%;
-  /* Maintain aspect ratio */
+  max-height: 50%;
   object-fit: contain;
-  /* Crop to fit if needed */
- 
   max-height: 200px;
-  /* Optional: limit height */
   display: block;
-  /* Remove any extra bottom space */
 
 }
 
@@ -71,4 +70,10 @@ body {
   margin: 1em;
   padding: 0.5em;
   text-decoration: underline;
+  color: black;
+}
+
+.read-more:hover{
+  background-color: rgba(165, 42, 42, 0.331);
+ 
 }
